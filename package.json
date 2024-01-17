@@ -1,0 +1,59 @@
+{
+  "name": "nextjs-nextauth-mongodb",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "check-format": "prettier --check .",
+    "check-lint": "eslint . --ext ts --ext tsx --ext js",
+    "format": "prettier --write .",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@next-auth/mongodb-adapter": "^1.1.3",
+    "@radix-ui/react-icons": "^1.3.0",
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-select": "^2.0.0",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@t3-oss/env-nextjs": "^0.7.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.1.0",
+    "next": "^14.0.4",
+    "next-auth": "^4.24.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwind-merge": "^2.2.0",
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.22.4",
+    "zustand": "^4.4.7"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.44.7",
+    "@types/node": "^18.17.0",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@typescript-eslint/eslint-plugin": "^6.11.0",
+    "@typescript-eslint/parser": "^6.11.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.54.0",
+    "eslint-config-next": "^14.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "husky": "^8.0.0",
+    "postcss": "^8.4.31",
+    "prettier": "^3.2.3",
+    "prettier-plugin-tailwindcss": "^0.5.7",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.1.6"
+  },
+  "ct3aMetadata": {
+    "initVersion": "7.25.2"
+  },
+  "packageManager": "pnpm@8.9.2"
+}
