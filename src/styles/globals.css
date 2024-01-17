@@ -5,7 +5,7 @@
 @layer base {
   /* data-theme is a custom attribute that we use to switch between themes in root layout */
   [data-theme="light"] {
-    --background: 0 0% 100%;
+    --background: 233 25% 94%;
     --foreground: 222.2 84% 4.9%;
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
@@ -47,11 +47,12 @@
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 224.3 76.3% 48%;
+    --radius: 0.5rem;
   }
 
   /* WANT TO ADD MORE THEMES? ADD THEM HERE, LIKE below */
   [data-theme="red"] {
-    --background: 0 0% 100%;
+    --background: 233 25% 94%;
     --foreground: 240 10% 3.9%;
     --card: 0 0% 100%;
     --card-foreground: 240 10% 3.9%;

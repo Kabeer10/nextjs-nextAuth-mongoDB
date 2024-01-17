@@ -27,6 +27,7 @@ const useGlobal = create<GlobalState>()(
 function changeTheme(theme: Theme) {
   const root = document.documentElement;
   root.setAttribute("data-theme", theme);
+  document.cookie = `theme=${theme};path=/`;
 }
 
 export { useGlobal };

@@ -1,6 +1,9 @@
 import "@/styles/globals.css";
 
 import { Inter } from "next/font/google";
+import { cookies } from "next/headers";
+
+import { Toaster } from "@/components/ui/sonner";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -22,10 +25,14 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const themeCookie = cookies().get("theme")?.value ?? "light";
   return (
     // ADD More fonts here
-    <html lang="en" data-theme="light" className={`${inter.variable}`}>
-      <body>{children}</body>
+    <html lang="en" data-theme={themeCookie} className={`${inter.variable}`}>
+      <body>
+        {children}
+        <Toaster richColors />
+      </body>
     </html>
   );
 }
