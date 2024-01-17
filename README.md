@@ -1,28 +1,66 @@
-# Create T3 App
+# Next.js 14+ Boilerplate with Tailwind CSS (ShadCN), NextAuth, Mongoose, and TypeScript
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+🚀 Kickstart your web development journey with this comprehensive Next.js 14+ boilerplate, featuring a powerful stack for a seamless development experience. This template combines the best tools and technologies, prioritizing developer convenience and efficiency.
 
-## What's next? How do I make an app with this?
+### Features
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+Developer experience first, extremely flexible code structure and only keep what you need:
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+- ⚡ [Next.js](https://nextjs.org) with App Router support
+- 🔥 Type checking [TypeScript](https://www.typescriptlang.org)
+- 💎 Integrate with [Tailwind CSS](https://tailwindcss.com) and [ShadCn UI](https://ui.shadcn.com)
+- ✅ Strict Mode for TypeScript and React 18
+- 🔒 Authentication with [NextAuth](https://next-auth.js.org): Currently Google Login only.
+- 📦 Type-safe ORM with Mongoose
+- ♻️ Type-safe environment variables with T3 Env
+- ⌨️ Form with React Hook From
+- 🔴 Validation library with Zod
+- 📏 Linter with [ESLint](https://eslint.org) (default NextJS, NextJS Core Web Vitals, Tailwind CSS)
+- 🌈 Multi Theme Support with Tailwind CSS with Theme Switcher Example
+- 💖 Code Formatter with [Prettier](https://prettier.io)
+- 🦊 Husky for Git Hooks
+- 🚫 Lint-staged for running linters on Git staged files
+- 🚓 Lint git commit with Commitlint
+- 📓 Write standard compliant commit messages with Commitizen
+- 💡 Absolute Imports using `@` prefix
+- 🗂 VSCode configuration: Debug, Settings, Tasks and Extensions
+- 🌈 Include a FREE minimalist theme (light and dark)
+- 💯 Maximize lighthouse score
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+Built-in feature from Next.js:
 
-## Learn More
+- ☕ Minify HTML & CSS
+- 💨 Live reload
+- ✅ Cache busting
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+### Requirements
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+- Node.js 18+ and npm
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+### Getting started
 
-## How do I deploy this?
+Run the following command on your local environment:
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+```shell
+git clone --depth=1 https://github.com/Kabeer10/nextjs-nextAuth-mongoDB.git my-project-name
+cd my-project-name
+pnpm install
+```
+
+Then, you can run locally in development mode with live reload:
+
+```shell
+pnpm run dev
+```
+
+Open http://localhost:3000 with your favorite browser to see your project.
+
+### Set up authentication
+
+ADD `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` and Other Variables mentioned in ``.env.example` into `.env` file (not tracked by Git):
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to use it for your own projects.
+
+Happy coding! 🚀
