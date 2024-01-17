@@ -1,4 +1,4 @@
-# Next.js 14+ Boilerplate with Tailwind CSS (ShadCN), NextAuth, Mongoose, and TypeScript
+# Next.js 14+ Boilerplate with Tailwind CSS (ShadCN UI), NextAuth, Mongoose, and TypeScript
 
 🚀 Kickstart your web development journey with this comprehensive Next.js 14+ boilerplate, featuring a powerful stack for a seamless development experience. This template combines the best tools and technologies, prioritizing developer convenience and efficiency.
 
